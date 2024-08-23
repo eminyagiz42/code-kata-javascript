@@ -22,3 +22,4 @@ function getGrade(score) {
 
     return grade;
 }
+
