@@ -1,4 +1,4 @@
-/* hello-world */
+/* 10 Days of Javascript - hello-world */
 
 const parameterVariable = 'Welcome to 10 Days of JavaScript!';
 
@@ -6,7 +6,7 @@ console.log('Hello, World!');
 console.log(parameterVariable);
 
 
-/* data-types */
+/* 10 Days of Javascript - data-types */
 
 const secondInteger  = 12;
 const secondDecimal  = 4.32;

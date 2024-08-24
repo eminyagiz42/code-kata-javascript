@@ -1,4 +1,4 @@
-/* arithmetic-operators */
+/* 10 Days of Javascript - arithmetic-operators */
 
 const length = 3;
 const width =  4.5;
@@ -17,7 +17,7 @@ function getPerimeter(length, width) {
     return  (Number(length) + Number(width)) *  2;
 }
 
-/* function */
+/* 10 Days of Javascript - function */
 
 console.log(factorial(4))
 
@@ -29,7 +29,7 @@ function factorial(n) {
 }
 
 
-/* let-and-const */
+/* 10 Days of Javascript - let-and-const */
 
 let r = readLine();
 const pi = Math.PI;

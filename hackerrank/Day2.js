@@ -1,3 +1,6 @@
+/* 10 Days of Javascript - if-else */
+
+
 const score = 11;
 
 console.log(getGrade(score));
@@ -21,5 +24,56 @@ function getGrade(score) {
     }
 
     return grade;
+}
+
+/* 10 Days of Javascript - switch */
+
+const s1 = "bcdefgh";
+
+console.log(getLetter(s1));
+
+
+function getLetter(s1) {
+    let letter;
+
+    switch(s1.charAt(0)) {
+        case ('a'|| 'e'|| 'i'|| 'o'):
+            letter = 'A';
+            break;
+        case ( 'b'|| 'c'|| 'd'|| 'e'|| 'f'|| 'g'):
+            letter = 'B';
+            break;
+        case ('h'||'j'|| 'k'|| 'l'|| 'm'):
+            letter = 'C';
+            break;
+        default:
+            letter = 'D';
+    }
+
+    return letter;
+}
+
+console.log(' ');
+/* 10 Days of Javascript - loops */
+
+
+
+const s2 = "javascriptloops";
+
+vowelsAndConsonants(s2);
+
+function vowelsAndConsonants(str) {
+
+    let vowels = ["a", "e", "i", "o", "u"];
+
+    for (let v of str) {
+        if (vowels.includes(v))
+            console.log(v);
+    }
+
+    for (let v of str) {
+        if (!vowels.includes(v))
+            console.log(v);
+    }
 }
 
