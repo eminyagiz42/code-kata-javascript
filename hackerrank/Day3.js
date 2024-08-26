@@ -16,3 +16,49 @@ function getSecondLargest(nums) {
         }
     }
 }
+
+
+/* 10 Days of Javascript - try-catch-and-finally */
+
+//const s1 = "1234";
+const s1 = Number(1234);
+
+reverseString(s1);
+
+
+function reverseString(s1) {
+    try {
+        s1 = s1.split('').reverse().join('');
+    } catch (e) {
+        console.log(e.message);
+    } finally {
+        console.log(s1);
+    }
+}
+
+
+
+
+/* 10 Days of Javascript - throw */
+
+/*
+const n = +(readLine());
+
+for (let i = 0; i < n; i++) {
+    const a = +(readLine());
+
+    try {
+        console.log(isPositive(a));
+    } catch (e) {
+        console.log(e.message);
+    }
+}
+
+
+function isPositive(a) {
+
+}
+
+
+
+ */
