@@ -37,28 +37,22 @@ function reverseString(s1) {
 }
 
 
-
-
 /* 10 Days of Javascript - throw */
 
-/*
-const n = +(readLine());
+const a = 1;
 
-for (let i = 0; i < n; i++) {
-    const a = +(readLine());
-
-    try {
-        console.log(isPositive(a));
-    } catch (e) {
-        console.log(e.message);
-    }
+try {
+    console.log(isPositive(a));
+} catch (e) {
+    console.log(e.message);
 }
-
 
 function isPositive(a) {
-
+    if (a === 0) {
+        throw new Error("Zero Error");
+    } else if (a > 0) {
+        return "YES";
+    } else {
+        return "Negative Error";
+    }
 }
-
-
-
- */
