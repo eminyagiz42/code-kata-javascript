@@ -5,7 +5,7 @@ function getMaxLessThanK(n, k) {
     for (let i = 0; i < n; i++) {
         for (let j = i + 1; j <= n; j++) {
             let and = i & j;
-            if (and < k && and > max){
+            if (and < k && and > max) {
                 max = and;
 
             }
@@ -14,18 +14,17 @@ function getMaxLessThanK(n, k) {
     return max;
 }
 
-const  n = 9;
-const  k = 2;
+const n = 9;
+const k = 2;
 
 console.log(getMaxLessThanK(n, k));
-console.log( ' ')
-
+console.log(' ')
 
 
 /* 10 Days of Javascript - date */
 
 function getDayName(dateString) {
-    return new Date(dateString).toLocaleDateString('en-US', { weekday: 'long' }); //Sunday
+    return new Date(dateString).toLocaleDateString('en-US', {weekday: 'long'}); //Sunday
 }
 
 const date = "10/11/2009";
