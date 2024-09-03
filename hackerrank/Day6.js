@@ -7,7 +7,6 @@ function getMaxLessThanK(n, k) {
             let and = i & j;
             if (and < k && and > max) {
                 max = and;
-
             }
         }
     }
@@ -16,7 +15,6 @@ function getMaxLessThanK(n, k) {
 
 const n = 9;
 const k = 2;
-
 console.log(getMaxLessThanK(n, k));
 console.log(' ')
 
