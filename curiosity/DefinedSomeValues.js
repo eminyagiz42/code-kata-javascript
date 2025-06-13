@@ -14,6 +14,8 @@ console.log(a);
 console.log(b);
 console.log(c);
 
-
-
-definedSomeValues(a, b, c);
+/* outputs
+1
+old string
+{ key: 'new value' }
+*/
